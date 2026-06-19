@@ -3,34 +3,34 @@ import { slot4BrandConfig } from '@/editable/theme/brand.config'
 export const globalContent = {
   site: {
     name: slot4BrandConfig.siteName,
-    tagline: slot4BrandConfig.tagline || 'Independent reading platform',
+    tagline: slot4BrandConfig.tagline || 'Media distribution platform',
     domain: slot4BrandConfig.domain,
     baseUrl: slot4BrandConfig.baseUrl,
   },
   nav: {
-    tagline: 'News, media, and public updates',
+    tagline: 'Media distribution and newsroom visibility',
     primaryLinks: [
-      { label: 'Latest Updates', href: '/updates' },
-      { label: 'News Media', href: '/updates?category=news-media' },
-      { label: 'Press Releases', href: '/updates?category=press-release' },
+      { label: 'Media Distribution', href: '/media-distribution' },
+      { label: 'Search Archive', href: '/search' },
+      { label: 'Create', href: '/create' },
       { label: 'Contact', href: '/contact' },
     ],
     actions: {
-      primary: { label: 'Browse updates', href: '/updates' },
+      primary: { label: 'Browse posts', href: '/media-distribution' },
       secondary: { label: 'Submit', href: '/contact' },
     },
   },
   footer: {
     tagline: 'Newsroom updates and distributed media',
-    description: 'A flexible media distribution surface for announcements, press coverage, public updates, and dynamic news categories.',
+    description: 'A focused media distribution surface for announcements, press coverage, campaign updates, and publication-ready newsroom content.',
     columns: [
       {
         title: 'Explore',
         links: [
-          { label: 'Latest Updates', href: '/updates' },
-          { label: 'News Media', href: '/updates?category=news-media' },
-          { label: 'Business News', href: '/updates?category=business' },
-          { label: 'Press Releases', href: '/updates?category=press-release' },
+          { label: 'Media Distribution', href: '/media-distribution' },
+          { label: 'Search Archive', href: '/search' },
+          { label: 'Create Post', href: '/create' },
+          { label: 'Contact Desk', href: '/contact' },
         ],
       },
       {

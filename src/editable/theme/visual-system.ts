@@ -19,7 +19,7 @@ export const visualPresets = {
       foreground: '#111111',
       muted: '#66615b',
       primary: '#111111',
-      accent: '#c92f2f',
+      accent: '#f5822a',
       surface: '#ffffff',
     },
     shape: 'sharp newsroom modules with black rules and red feature bands',
